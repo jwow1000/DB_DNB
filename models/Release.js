@@ -1,12 +1,15 @@
 import mongoose from 'mongoose';
 
 const releasesSchema = new mongoose.Schema({
-    "name": {type: String},
-    "year": {type: String},
     "title": {type: String},
-    "label": { type: Schema.Types.ObjectId, ref: "labels" },
-    "artists": { type: Schema.Types.ObjectId, ref: "artists" },
-    "songs": {type: Schema.Types.ObjectId, ref: "songs"},
+    "id": {type: Number},
+    "year": {type: String},
+    "format": {type: String},
+    "resource_url": {type: String},
+    "catno": {type: String},
+    "title": {type: String},
+    "label": [String],
+    "artists": [Number],
     "uri": {type: String}
     
 });
