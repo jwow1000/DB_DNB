@@ -6,7 +6,6 @@ const labelsSchema = new mongoose.Schema({
     "releases": { type: Schema.Types.ObjectId, ref: "releases" },
     "profile": {type: String}
 
-    
 });
 
 export default mongoose.model('labels', labelsSchema);
