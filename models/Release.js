@@ -9,8 +9,10 @@ const releasesSchema = new mongoose.Schema({
     "catno": {type: String},
     "title": {type: String},
     "label": [String],
-    "artists": [Number],
-    "uri": {type: String}
+    "artists": [String],
+    "uri": {type: String},
+    "videos_url": [String]
+
     
 });
 

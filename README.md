@@ -2,12 +2,81 @@
 
 drum and bass databse :) simple api for learning
 
-<img src="https://mixmag.fr/assets/uploads/images/_columns2/goldiegallery8.jpg"></img>
+![App Screenshot](https://mixmag.fr/assets/uploads/images/_columns2/goldiegallery8.jpg)
 
-## api calls
+## API Reference
 
-how I grabbed releases from a label:
+#### Get all Artists, Labels, Releases
 
-https://api.discogs.com/labels/128/releases?page=3&per_page=20&sort=year&sort_order=asc
+```http
+  GET /api/artists
+```
 
-\*\* some releases on metalheadz(128) dont have a year so I skipped forward a couple pages(3). 1992 - 98 was when metalheadz was good so the earlier the better hence sort_order ascending. and we only want 20 while we figure out this data structure m8.
+- root call
+
+#### Get item by given discogs id
+
+\*\*\* note this isnt the \_id given by mongoose
+
+```http
+  GET /api/items/id/${id}
+```
+
+| Parameter    | Type     | Description                       |
+| :----------- | :------- | :-------------------------------- |
+| `discogs id` | `number` | **Required**. Id of item to fetch |
+
+#### Get item by given name(artists,labels) or title (releases).
+
+```http
+  GET /api/items/name/${name}
+  GET /api/items/title/${title}
+```
+
+| Parameter    | Type     | Description                                  |
+| :----------- | :------- | :------------------------------------------- |
+| `discogs id` | `number` | **Required**. name or title of item to fetch |
+
+#### POST new item
+
+```http
+  POST /api/items/ body
+```
+
+#### Update item by discogs id
+
+```http
+  PUT /api/items/${id}
+```
+
+| Parameter    | Type     | Description                       |
+| :----------- | :------- | :-------------------------------- |
+| `discogs id` | `number` | **Required**. id of item to fetch |
+
+#### Update item by discogs id
+
+```http
+  DELETE /api/items/${mongo_id}
+```
+
+| Parameter   | Type     | Description                        |
+| :---------- | :------- | :--------------------------------- |
+| `monogo id` | `number` | **Required**. id of item to delete |
+
+## Screenshots
+
+----- an example of a GET
+![App Screenshot](images/get.png)
+
+----- an example of a POST
+![App Screenshot](images/post.png)
+
+----- an example of a PUT
+![App Screenshot](images/put.png)
+
+----- an example of a DELETE
+![App Screenshot](images/delete.png)
+
+## Appendix
+
+Any additional information goes here

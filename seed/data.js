@@ -17,7 +17,7 @@ const insertData = async () => {
   await Artist.create(artistsData);
   await Release.create(releasesData);
 
-  console.log(chalk.greenBright("Characters and Houses created!"));
+  console.log(chalk.greenBright("Artists, Labels, and Releases Created!"));
 
   // Close DB Connection
   await db.close();

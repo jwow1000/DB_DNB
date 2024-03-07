@@ -9,7 +9,7 @@
         "title": "Psychosis / Represent",
         "id": 5506,
         "year": 1994,
-        "artist": "DJ Peshay*"
+        "artists": ["DJ Peshay"]
     },
     {
         
@@ -20,7 +20,7 @@
         "title": "Psychosis / Represent",
         "id": 1979353,
         "year": 1994,
-        "artist": "DJ Peshay*"
+        "artists": ["DJ Peshay"]
     },
     {
         
@@ -31,7 +31,7 @@
         "title": "Fresh Jive / Basic Principles / I Need Your Love",
         "id": 5507,
         "year": 1994,
-        "artist": "Alex Reece"
+        "artists": ["Alex Reece"]
     },
     {
         
@@ -42,7 +42,7 @@
         "title": "Far Away / It's Yours",
         "id": 1152882,
         "year": 1994,
-        "artist": "Doc Scott"
+        "artists": ["Doc Scott"]
     },
     {
         
@@ -53,7 +53,7 @@
         "title": "Far Away / It's Yours",
         "id": 10429915,
         "year": 1994,
-        "artist": "Doc Scott"
+        "artists": ["Doc Scott"]
     },
     {
         
@@ -64,7 +64,7 @@
         "title": "Kid Caprice / The Rise",
         "id": 1152890,
         "year": 1994,
-        "artist": "Wax Doctor"
+        "artists": ["Wax Doctor"]
     },
     {
         
@@ -75,7 +75,7 @@
         "title": "Unreleased Metal",
         "id": 5630429,
         "year": 1994,
-        "artist": "Doc Scott / Goldie"
+        "artists": ["Doc Scott", "Goldie"]
     },
     {
         
@@ -86,7 +86,7 @@
         "title": "Unreleased Metal",
         "id": 5505,
         "year": 1994,
-        "artist": "Doc Scott / Goldie"
+        "artists": ["Doc Scott", "Goldie"]
     },
     {
         
@@ -97,7 +97,7 @@
         "title": "Fury The Origin / Rage ",
         "id": 10659150,
         "year": 1994,
-        "artist": "Goldie / Doc Scott"
+        "artists": ["Doc Scott", "Goldie"]
     },
     {
         
@@ -108,7 +108,7 @@
         "title": "It's Yours / Hand Of The Dead Body",
         "id": 10811555,
         "year": 1994,
-        "artist": "Doc Scott / Scarface (3)"
+        "artists": ["Doc Scott", "Scarface (3)"]
     },
     {
         
@@ -119,7 +119,7 @@
         "title": "Basic Principles (Remixes)",
         "id": 5508,
         "year": 1995,
-        "artist": "Alex Reese*"
+        "artists": ["Alex Reese"]
     },
     {
         
@@ -130,7 +130,7 @@
         "title": "Kid Capprice / The Rise",
         "id": 5510,
         "year": 1995,
-        "artist": "Wax Doctor"
+        "artists": ["Wax Doctor"]
     },
     {
         
@@ -141,7 +141,7 @@
         "title": "The Angels Fell",
         "id": 5512,
         "year": 1995,
-        "artist": "Dillinja"
+        "artists": ["Dillinja"]
     },
     {
         
@@ -152,7 +152,7 @@
         "title": "Your Sound / Tranquil",
         "id": 5511,
         "year": 1995,
-        "artist": "J.Majik"
+        "artists": ["J.Majik"]
     },
     {
         
@@ -163,7 +163,7 @@
         "title": "Stepin'Hard / Desire / Da Base II Dark",
         "id": 10093578,
         "year": 1995,
-        "artist": "Asylum (9)"
+        "artists": ["Asylum (9)"]
     },
     {
         
@@ -174,7 +174,7 @@
         "title": "Stepin'Hard / Desire / Da Base II Dark",
         "id": 5513,
         "year": 1995,
-        "artist": "Asylum (9)"
+        "artists": ["Asylum (9)"]
     },
     {
         
@@ -185,7 +185,7 @@
         "title": "Timeless",
         "id": 4438301,
         "year": 1995,
-        "artist": "Goldie"
+        "artists": ["Goldie"]
     },
     {
         
@@ -196,7 +196,7 @@
         "title": "Timeless",
         "id": 3182540,
         "year": 1995,
-        "artist": "Goldie"
+        "artists": ["Goldie"]
     },
     {
         
@@ -207,7 +207,7 @@
         "title": "Timeless",
         "id": 14837415,
         "year": 1995,
-        "artist": "Goldie"
+        "artists": ["Goldie"]
     },
     {
         
@@ -218,6 +218,6 @@
         "title": "Timeless",
         "id": 9014914,
         "year": 1995,
-        "artist": "Goldie"
+        "artists": ["Goldie"]
     }
 ]
