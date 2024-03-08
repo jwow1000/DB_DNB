@@ -76,7 +76,3 @@ drum and bass databse :) simple api for learning
 
 ----- an example of a DELETE
 ![App Screenshot](images/delete.png)
-
-## Appendix
-
-Any additional information goes here
