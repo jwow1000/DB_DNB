@@ -1,9 +1,11 @@
 import mongoose from "mongoose";
 import chalk from "chalk";
 
+const connectionString = process.env.DB_URL || "127.0.0.1:3000";
+
 mongoose.set("returnOriginal", false);
 
-mongoose.connect("mongodb://127.0.0.1:27017/dnb_db").catch((err) => {
+mongoose.connect(connectionString).catch((err) => {
   console.log(`Error connection to MongoDB: ${err.message}`);
 });
 
