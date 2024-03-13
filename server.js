@@ -6,11 +6,12 @@ import logger from "morgan";
 import chalk from "chalk";
 
 const app = express();
+// set up for deployment
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
-app.use(cors());
-app.use(logger("dev"));
+app.use( express.json() );
+app.use( cors() );
+app.use( logger("dev") );
 
 app.use("/api", routes);
 
